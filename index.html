@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>jrm. — JRmuse Atelier | Curated Active &amp; Golfwear</title>
+  <meta name="description" content="Chúng tôi không bán đồ tập, chúng tôi bán bảng màu. Bộ sưu tập Pilates, Yoga &amp; Golfwear phong cách tiểu thư Hàn Quốc từ JRmuse Atelier." />
+  <meta property="og:title" content="jrm. — JRmuse Atelier | Curated Active &amp; Golfwear" />
+  <meta property="og:description" content="Chúng tôi không bán đồ tập, chúng tôi bán bảng màu." />
+  <meta property="og:image" content="./assets/hero-atelier.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="top-ribbon">
+    BST THU ĐÔNG · CHÚNG TÔI KHÔNG BÁN ĐỒ TẬP, CHÚNG TÔI BÁN BẢNG MÀU · MIỄN PHÍ ĐỔI SIZE 7 NGÀY
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand-mark" aria-label="JRmuse Atelier">
+        jrm.<span>JRmuse Atelier</span>
+      </a>
+
+      <nav class="header-nav" aria-label="Điều hướng chính">
+        <a href="#palette-studio" class="nav-link">Bảng Màu</a>
+        <button type="button" class="nav-link" data-filter-cat="pilates">Pilates &amp; Joie</button>
+        <button type="button" class="nav-link" data-filter-cat="golf">Golf Atelier</button>
+        <button type="button" class="nav-link" data-open-size="true">Tư Vấn Size</button>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="btn-ghost-sm" data-open-size="true">Size Guide</button>
+        <button type="button" class="btn-cart" id="open-cart-btn" aria-label="Mở giỏ đồ">
+          Giỏ Đồ <span class="cart-badge" id="cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">JRMUSE ATELIER · CURATED ACTIVE &amp; GOLFWEAR</p>
+          <h1 class="hero-title">
+            Chúng tôi không bán đồ tập. <em>Chúng tôi kiến tạo bảng màu.</em>
+          </h1>
+          <p class="hero-subtitle">
+            Những phom dáng nữ tính, tinh giản và tôn đường nét chuẩn phong thái tiểu thư Hàn Quốc — đồng hành thanh lịch từ phòng tập Pilates buổi sáng đến sân Golf chiều thu.
+          </p>
+          <div class="hero-ctas">
+            <a href="#palette-studio" class="btn-primary">Khám Phá Bảng Màu ↓</a>
+            <button type="button" class="btn-secondary" data-open-size="true">
+              Bảng Quy Đổi &amp; Tư Vấn Size
+            </button>
+          </div>
+          <div class="hero-highlights">
+            <span class="hero-highlight-item"><i class="dot-accent"></i> 6 sắc độ độc bản tôn da</span>
+            <span class="hero-highlight-item"><i class="dot-accent"></i> Tự động gợi ý size S · M · L</span>
+            <span class="hero-highlight-item"><i class="dot-accent"></i> Thanh toán VietQR &amp; COD</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-frame">
+            <img src="./assets/hero-atelier.jpg" alt="Không gian trưng bày bảng màu thời trang JRmuse Atelier" />
+            <div class="hero-caption-chip">
+              Atelier Lookbook · Thu Đông
+              <strong>Bảng Màu Tiêu Chuẩn SEOUL</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pillars-section" id="atelier-pillars" aria-label="Dòng sản phẩm chủ đạo">
+      <div class="container pillars-grid">
+        <button type="button" class="pillar-card" id="pilates-joie" data-filter-cat="pilates">
+          <div class="pillar-thumb">
+            <img src="./assets/pilates-blush.jpg" alt="Bộ sưu tập Pilates và Quần Active Style Joie" />
+          </div>
+          <div>
+            <span class="pillar-tag">01 · Studio &amp; Lounge</span>
+            <h2 class="pillar-title">Pilates &amp; Joie</h2>
+            <p class="pillar-desc">Cạp gập tôn eo, vải lụa nén co giãn 4 chiều ôm gọn từng chuyển động trên máy Reformer.</p>
+            <span class="pillar-cta">Lọc thiết kế Pilates →</span>
+          </div>
+        </button>
+
+        <button type="button" class="pillar-card" id="golf-atelier" data-filter-cat="golf">
+          <div class="pillar-thumb">
+            <img src="./assets/golf-ivory.jpg" alt="Bộ sưu tập Golf Atelier mùa thu sang trọng" />
+          </div>
+          <div>
+            <span class="pillar-tag">02 · Country Club</span>
+            <h2 class="pillar-title">Golf Atelier</h2>
+            <p class="pillar-desc">Áo len dệt mịn phối chân váy xếp ly kinh điển — khí chất tiểu thư thanh lịch trên sân cỏ.</p>
+            <span class="pillar-cta">Lọc thiết kế Golf →</span>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <section class="studio-section" id="palette-studio">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">CURATED COLOR PALETTE STUDIO</p>
+            <h2 class="section-title">Chọn Đồ Theo Bảng Màu</h2>
+          </div>
+          <span class="section-count" id="product-count">Đang hiển thị 6 thiết kế</span>
+        </div>
+
+        <div class="palette-toolbar" id="palette-pills" role="tablist" aria-label="Bộ lọc bảng màu"></div>
+
+        <div class="palette-note-bar">
+          <p class="palette-note-text" id="palette-note"></p>
+          <div class="category-pills" id="category-pills">
+            <button type="button" class="cat-chip active" data-cat-btn="all">Tất cả dòng</button>
+            <button type="button" class="cat-chip" data-cat-btn="pilates">Pilates &amp; Joie</button>
+            <button type="button" class="cat-chip" data-cat-btn="golf">Golf Atelier</button>
+          </div>
+        </div>
+
+        <div class="product-grid" id="product-grid"></div>
+      </div>
+    </section>
+
+    <section class="atelier-story">
+      <div class="container story-grid">
+        <div>
+          <p class="eyebrow">TRIẾT LÝ THƯƠNG HIỆU</p>
+          <blockquote class="story-quote">
+            “Mỗi cô gái bước ra từ JRmuse không chỉ mặc một bộ đồ tập — nàng khoác lên một bảng màu hài hòa riêng tư.”
+          </blockquote>
+          <p class="hero-subtitle" style="margin-bottom: 0;">
+            Trải nghiệm mua sắm trọn vẹn không cần chờ tin nhắn hỏi giá từng mẫu: chọn sắc độ yêu thích, kiểm tra size chuẩn số đo trong 5 giây và hoàn tất đặt đơn tức thì.
+          </p>
+        </div>
+
+        <div class="story-metrics">
+          <div class="metric-box">
+            <span class="metric-val">06</span>
+            <span class="metric-label">Bảng màu tinh tuyển tôn da sáng tự nhiên</span>
+          </div>
+          <div class="metric-box">
+            <span class="metric-val">5 giây</span>
+            <span class="metric-label">Gợi ý size tự động theo chiều cao &amp; cân nặng</span>
+          </div>
+          <div class="metric-box">
+            <span class="metric-val">24/7</span>
+            <span class="metric-label">Đặt đơn minh bạch giá &amp; khớp lệnh VietQR</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#top" class="brand-mark">jrm.<span>JRmuse Atelier</span></a>
+        <div class="footer-links">
+          <a href="#palette-studio">Bảng Màu Độc Bản</a>
+          <a href="#pilates-joie">Pilates &amp; Joie</a>
+          <a href="#golf-atelier">Golf Atelier</a>
+          <a href="https://www.threads.com/@jrmuseeeee" target="_blank" rel="noopener noreferrer">@jrmuseeeee trên Threads ↗</a>
+        </div>
+      </div>
+
+      <div class="attribution-banner">
+        <span>
+          Bản mẫu giao diện thiết kế riêng cho <strong>JRmuse</strong> (<code>@jrmuseeeee</code>) — Sẵn sàng gắn tên miền riêng, tuỳ biến danh mục &amp; đồng bộ quản lý đơn hàng / tồn kho.
+        </span>
+        <span>Atelier Concept · 2026</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Backdrop -->
+  <div class="backdrop" id="ui-backdrop"></div>
+
+  <!-- Interactive Size Advisor Modal -->
+  <div class="size-modal" id="size-modal" role="dialog" aria-modal="true" aria-labelledby="size-modal-title">
+    <div class="modal-header">
+      <div>
+        <p class="eyebrow" style="margin-bottom: 4px;">FIT &amp; MEASUREMENT ADVISOR</p>
+        <h3 class="modal-title" id="size-modal-title">Bảng Quy Đổi &amp; Tư Vấn Size</h3>
+      </div>
+      <button type="button" class="icon-close" id="close-size-btn" aria-label="Đóng">×</button>
+    </div>
+
+    <div class="calc-grid">
+      <div>
+        <label class="field-label" for="input-height">Chiều cao (cm)</label>
+        <input type="number" id="input-height" class="field-input" value="160" min="140" max="185" />
+      </div>
+      <div>
+        <label class="field-label" for="input-weight">Cân nặng (kg)</label>
+        <input type="number" id="input-weight" class="field-input" value="49" min="36" max="85" />
+      </div>
+    </div>
+
+    <div class="size-result-box" id="size-result-box"></div>
+
+    <table class="size-table" aria-label="Bảng quy đổi số đo chi tiết">
+      <thead>
+        <tr>
+          <th>Size</th>
+          <th>Cân nặng</th>
+          <th>Vòng ngực</th>
+          <th>Vòng eo</th>
+          <th>Vòng hông</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>S</strong></td>
+          <td>42 – 49 kg</td>
+          <td>78 – 84 cm</td>
+          <td>58 – 66 cm</td>
+          <td>84 – 90 cm</td>
+        </tr>
+        <tr>
+          <td><strong>M</strong></td>
+          <td>50 – 57 kg</td>
+          <td>84 – 90 cm</td>
+          <td>66 – 73 cm</td>
+          <td>90 – 96 cm</td>
+        </tr>
+        <tr>
+          <td><strong>L</strong></td>
+          <td>58 – 66 kg</td>
+          <td>90 – 96 cm</td>
+          <td>73 – 80 cm</td>
+          <td>96 – 103 cm</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="margin-top: 18px; display: flex; justify-content: flex-end; gap: 10px;">
+      <button type="button" class="btn-primary" id="apply-size-btn" style="padding: 11px 22px;">
+        Áp dụng size đề xuất
+      </button>
+    </div>
+  </div>
+
+  <!-- Slide-Over Cart & 1-Step Checkout Drawer -->
+  <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+    <div class="drawer-header">
+      <div>
+        <p class="eyebrow" style="margin-bottom: 2px;">ATELIER BAG</p>
+        <h3 class="modal-title" id="cart-title" style="font-size: 24px;">Giỏ Đồ Của Nàng</h3>
+      </div>
+      <button type="button" class="icon-close" id="close-cart-btn" aria-label="Đóng giỏ đồ">×</button>
+    </div>
+
+    <div class="drawer-body" id="cart-body"></div>
+
+    <div class="drawer-footer" id="cart-footer"></div>
+  </aside>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
