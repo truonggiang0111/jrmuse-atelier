@@ -554,13 +554,13 @@
 
       if (target.dataset.paletteId) {
         state.activePalette = target.dataset.paletteId;
-        if (state.activePalette !== 'all') {
-          PRODUCTS.forEach((p) => {
-            if (p.colors.includes(state.activePalette)) {
-              state.selectedColors[p.id] = state.activePalette;
-            }
-          });
-        }
+        PRODUCTS.forEach((p) => {
+          if (state.activePalette === 'all') {
+            state.selectedColors[p.id] = p.defaultColor;
+          } else if (p.colors.includes(state.activePalette)) {
+            state.selectedColors[p.id] = state.activePalette;
+          }
+        });
         renderPaletteBar();
         renderProducts();
         return;
