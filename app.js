@@ -5,37 +5,37 @@
     {
       id: 'all',
       name: 'Tất cả',
-      hex: 'linear-gradient(135deg, #4A352D 0%, #EAC8CE 50%, #C7DDF0 100%)',
+      hex: 'linear-gradient(135deg, #3E231B 0%, #E5A4B3 50%, #95C0E8 100%)',
       note: '“Chúng tôi không bán đồ tập, chúng tôi bán bảng màu.” — Chọn một sắc độ để khám phá phom dáng phù hợp.'
     },
     {
       id: 'espresso',
       name: 'Espresso Truffle',
-      hex: '#4A352D',
+      hex: '#3E231B',
       note: 'Tông nâu cà phê trầm ấm giúp làn da trông sáng mịn hơn và tạo hiệu ứng thon gọn vòng eo tức thì.'
     },
     {
       id: 'blush',
       name: 'Ballet Blush',
-      hex: '#EAC8CE',
+      hex: '#E5A4B3',
       note: 'Tông hồng phấn tiểu thư dịu nhẹ, trong trẻo và nữ tính dưới ánh nắng sớm của phòng tập Pilates.'
     },
     {
       id: 'glacier',
       name: 'Glacier Blue',
-      hex: '#C7DDF0',
+      hex: '#95C0E8',
       note: 'Sắc xanh băng thanh mát mang cảm giác thư thái, cao cấp chuẩn phong cách Seoul studio.'
     },
     {
       id: 'ivory',
       name: 'Butter Ivory',
-      hex: '#F4EBDC',
+      hex: '#EFE0C4',
       note: 'Sắc kem bơ ngọt ngào giàu tính quiet-luxury, tinh khôi từ thảm tập đến những buổi tee-off mùa thu.'
     },
     {
       id: 'obsidian',
       name: 'Obsidian Noir',
-      hex: '#1F1D1C',
+      hex: '#171413',
       note: 'Đen tuyền sắc sảo với đường cắt dứt khoát, tôn chiều cao và dễ phối cùng mọi món đồ có sẵn.'
     }
   ];
