@@ -1287,49 +1287,55 @@ a {
 
 @media (max-width: 920px) {
   .container {
-    padding: 0 20px;
+    padding: 0 16px;
   }
 
   .header-inner {
-    height: 64px;
-    gap: 12px;
+    height: 60px;
+    gap: 10px;
   }
 
-  .brand-mark span {
+  .brand-mark {
+    font-size: 27px;
+  }
+
+  .brand-mark span,
+  .btn-ghost-sm {
     display: none;
   }
 
   .header-nav {
-    gap: 18px;
+    gap: 14px;
   }
 
   .nav-link {
-    font-size: 14px;
+    font-size: 13.5px;
     white-space: nowrap;
   }
 
-  .btn-ghost-sm,
   .btn-cart {
-    font-size: 13.5px;
-    padding: 9px 15px;
+    font-size: 13px;
+    padding: 8px 14px;
     white-space: nowrap;
   }
 
   .hero-section {
-    padding: 30px 0 40px;
+    padding: 26px 0 36px;
   }
 
   .hero-grid {
-    grid-template-columns: 1.05fr 0.95fr;
-    gap: 24px;
+    grid-template-columns: 1.04fr 0.96fr;
+    gap: 18px;
   }
 
   .hero-title {
-    font-size: 36px;
+    font-size: 32px;
+    line-height: 1.18;
   }
 
   .hero-subtitle {
-    font-size: 16px;
+    font-size: 15px;
+    margin-bottom: 20px;
   }
 
   .hero-ctas {
@@ -1338,69 +1344,73 @@ a {
 
   .btn-primary,
   .btn-secondary {
-    font-size: 14.5px;
-    padding: 13px 20px;
+    font-size: 13.5px;
+    padding: 11px 18px;
   }
 
   .pillars-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
+    gap: 14px;
   }
 
   .pillar-card {
-    grid-template-columns: 108px 1fr;
-    gap: 14px;
-    padding: 16px;
+    grid-template-columns: 92px 1fr;
+    gap: 12px;
+    padding: 14px;
   }
 
   .pillar-thumb {
-    width: 108px;
-    height: 132px;
+    width: 92px;
+    height: 116px;
   }
 
   .pillar-title {
-    font-size: 19px;
+    font-size: 17.5px;
   }
 
   .pillar-desc {
-    font-size: 14px;
+    font-size: 13.5px;
   }
 
   .swatch-pill {
-    font-size: 14px;
-    padding: 10px 16px;
+    font-size: 13.5px;
+    padding: 9px 14px;
   }
 
   .palette-note-text {
-    font-size: 15.5px;
+    font-size: 15px;
   }
 
   .product-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 16px;
+  }
+
+  .product-body {
+    padding: 15px 16px 18px;
   }
 
   .product-title {
-    font-size: 19px;
+    font-size: 17.5px;
   }
 
   .product-desc {
-    font-size: 14.5px;
+    font-size: 13.5px;
   }
 
   .product-price {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .size-btn {
-    width: 34px;
-    height: 32px;
-    font-size: 13px;
+    width: 32px;
+    height: 30px;
+    font-size: 12.5px;
   }
 
   .btn-add-cart {
-    font-size: 14.5px;
-    padding: 13px 14px;
+    font-size: 14px;
+    padding: 12px;
   }
 
   .story-grid {
@@ -1410,7 +1420,7 @@ a {
 
   .story-metrics {
     grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
+    gap: 10px;
   }
 
   .hero-grid > *,
