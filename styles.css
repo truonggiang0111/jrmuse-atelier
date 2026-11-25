@@ -38,17 +38,18 @@
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
-  overflow-x: hidden;
+  text-size-adjust: 100%;
 }
 
 body {
   margin: 0;
+  min-width: 1220px;
   background-color: var(--bg);
   color: var(--ink);
   font-family: var(--font-sans);
   font-size: 15px;
   line-height: 1.65;
-  overflow-x: hidden;
+  overflow-x: clip;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -1283,95 +1284,4 @@ a {
 .toast.show {
   opacity: 1;
   transform: translate(-50%, 0);
-}
-
-/* Responsive Breakpoints */
-@media (max-width: 960px) {
-  .hero-grid,
-  .story-grid {
-    grid-template-columns: 1fr;
-    gap: 28px;
-  }
-
-  .pillars-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .product-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-}
-
-@media (max-width: 680px) {
-  .container {
-    padding: 0 16px;
-  }
-
-  .top-ribbon {
-    font-size: 9.5px;
-    letter-spacing: 0.08em;
-    padding: 8px 10px;
-  }
-
-  .header-nav,
-  .brand-mark span {
-    display: none;
-  }
-
-  .header-inner {
-    height: 60px;
-  }
-
-  .hero-section {
-    padding: 24px 0 36px;
-  }
-
-  .hero-frame {
-    aspect-ratio: 4 / 3;
-    max-height: 360px;
-  }
-
-  .hero-ctas {
-    flex-direction: column;
-  }
-
-  .btn-primary,
-  .btn-secondary {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .pillar-card {
-    grid-template-columns: 104px 1fr;
-    gap: 14px;
-    padding: 14px;
-  }
-
-  .pillar-thumb {
-    width: 104px;
-    height: 128px;
-  }
-
-  .pillar-title {
-    font-size: 18px;
-  }
-
-  .product-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
-  .story-metrics {
-    grid-template-columns: 1fr;
-  }
-
-  .calc-grid,
-  .pay-methods {
-    grid-template-columns: 1fr;
-  }
-
-  .size-modal {
-    padding: 20px;
-  }
 }
